@@ -3,9 +3,10 @@ package com.wangyi.springcloudzipkinserverdemo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.sleuth.zipkin.stream.EnableZipkinStreamServer;
+import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
-//@EnableZipkinServer
+@EnableZipkinServer
 @EnableZipkinStreamServer
 public class SpringCloudZipkinServerDemoApplication {
 
