@@ -12,7 +12,6 @@ public class SpringCloudZipkinServerDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudZipkinServerDemoApplication.class, args);
-        System.out.println("asdfsdfsdfsdf");
     }
 
 }
