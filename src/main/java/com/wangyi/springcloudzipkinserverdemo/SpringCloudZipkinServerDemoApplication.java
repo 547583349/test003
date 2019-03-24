@@ -11,7 +11,7 @@ import zipkin.server.EnableZipkinServer;
 public class SpringCloudZipkinServerDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudZipkinServerDemoApplication.class, args);
+// 		SpringApplication.run(SpringCloudZipkinServerDemoApplication.class, args);
     }
 
 }
