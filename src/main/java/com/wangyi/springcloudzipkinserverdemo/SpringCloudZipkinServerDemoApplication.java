@@ -13,6 +13,7 @@ public class SpringCloudZipkinServerDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudZipkinServerDemoApplication.class, args);
         System.out.println("Hello World");
+        System.out.println("哈哈哈啊");
     }
 
 }
